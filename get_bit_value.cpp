@@ -1,3 +1,11 @@
+/*
+Get bit at position i
+Input format
+Given integer numbers A and i
+Output format
+1 or 0
+*/
+
 #include <iostream>
 
 #include <bitset>
