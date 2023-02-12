@@ -1,0 +1,19 @@
+/*
+Write a program that inverts a certain bit in a given number (the bits are numbered from 0, starting from the low bits).
+Input format
+Given integer numbers A and i
+Output format
+Print the number after inverting bit
+*/
+
+#include <iostream>
+
+int main() 
+{
+  unsigned int a, b, c;
+  std::cin >> a >> b;
+  c = 1 << b;
+  a = a ^ c;
+  std::cout << a;
+
+}
