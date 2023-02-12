@@ -1,3 +1,13 @@
+/*Print the ASCII table for characters from 32 to 127. Your table should have 6 rows and 16 columns, 
+as well as two headers: for rows and for columns. 
+The initial column should be the most significant hexadecimal digit of the character code. 
+The starting line must have a lower hexadecimal digit. Alphanumeric characters must be capitalized. 
+Separate items on the same line with tab characters.
+Notes
+Your table should look something like this -
+(only without the first two lines with control characters): https://clck.ru/AFtzU. 
+Borders between cells do not need to be drawn.*/
+
 #include <iostream>
 
 int main()
