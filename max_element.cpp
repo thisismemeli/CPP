@@ -1,3 +1,8 @@
+/*Write the function max_element, which takes as input matrix and returns the indices (row and column numbers) of the first occurrence maximum element when considering the elements of the matrix line by line.
+The function header should be like this:
+std::pair<size_t, size_t> max_element(const std::vector<std::vector<int>>& matrix)*/
+
+
 #include <vector>
 #include <algorithm>
 
