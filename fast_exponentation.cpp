@@ -1,3 +1,11 @@
+/*Given two integers a and b. Calculate ab
+Input format
+The only input line contains the numbers a (1 ≤ a ≤ 109) and b (0 ≤ b ≤ 109).
+Output format
+Print one number - the answer to the problem. Since the answer can be very large, output the remainder of its division by 109 + 7.
+Notes
+Hint: you need to make solution that works faster than O(b). Standard exponentiation functions cannot be used. */
+
 #include <iostream>
 
 long long e = 1000000000+7;
